@@ -1,0 +1,196 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "array",
+  "items" : [ {
+    "properties" : {
+      "﻿id" : {
+        "id" : "http://wso2jsonschema.org/0/﻿\"id\"",
+        "type" : "string"
+      },
+      "badgeNo" : {
+        "id" : "http://wso2jsonschema.org/0/badgeNo",
+        "type" : "string"
+      },
+      "givenName" : {
+        "id" : "http://wso2jsonschema.org/0/givenName",
+        "type" : "string"
+      },
+      "familyName" : {
+        "id" : "http://wso2jsonschema.org/0/familyName",
+        "type" : "string"
+      },
+      "address1" : {
+        "id" : "http://wso2jsonschema.org/0/address1",
+        "type" : "string"
+      },
+      "address2" : {
+        "id" : "http://wso2jsonschema.org/0/address2",
+        "type" : "null"
+      },
+      "zip" : {
+        "id" : "http://wso2jsonschema.org/0/zip",
+        "type" : "string"
+      },
+      "city" : {
+        "id" : "http://wso2jsonschema.org/0/city",
+        "type" : "string"
+      },
+      "cellPhone" : {
+        "id" : "http://wso2jsonschema.org/0/cellPhone",
+        "type" : "string"
+      },
+      "phoneNo" : {
+        "id" : "http://wso2jsonschema.org/0/phoneNo",
+        "type" : "null"
+      },
+      "email" : {
+        "id" : "http://wso2jsonschema.org/0/email",
+        "type" : "string"
+      },
+      "active" : {
+        "id" : "http://wso2jsonschema.org/0/active",
+        "type" : "string"
+      },
+      "leaveDate" : {
+        "id" : "http://wso2jsonschema.org/0/leaveDate",
+        "type" : "string"
+      },
+      "socsecNo" : {
+        "id" : "http://wso2jsonschema.org/0/socsecNo",
+        "type" : "null"
+      },
+      "country" : {
+        "id" : "http://wso2jsonschema.org/0/country",
+        "type" : "string"
+      },
+      "restId" : {
+        "id" : "http://wso2jsonschema.org/0/restId",
+        "type" : "string"
+      },
+      "staffCat" : {
+        "id" : "http://wso2jsonschema.org/0/staffCat",
+        "type" : "string"
+      },
+      "staffCatName" : {
+        "id" : "http://wso2jsonschema.org/0/staffCatName",
+        "type" : "string"
+      },
+      "section" : {
+        "id" : "http://wso2jsonschema.org/0/section",
+        "type" : "string"
+      },
+      "sectionName" : {
+        "id" : "http://wso2jsonschema.org/0/sectionName",
+        "type" : "null"
+      },
+      "passive" : {
+        "id" : "http://wso2jsonschema.org/0/passive",
+        "type" : "string"
+      },
+      "lockStatus" : {
+        "id" : "http://wso2jsonschema.org/0/lockStatus",
+        "type" : "string"
+      },
+      "info" : {
+        "id" : "http://wso2jsonschema.org/0/info",
+        "type" : "null"
+      },
+      "dateOfBirth" : {
+        "id" : "http://wso2jsonschema.org/0/dateOfBirth",
+        "type" : "string"
+      },
+      "employedDate" : {
+        "id" : "http://wso2jsonschema.org/0/employedDate",
+        "type" : "string"
+      },
+      "industryDate" : {
+        "id" : "http://wso2jsonschema.org/0/industryDate",
+        "type" : "string"
+      },
+      "cardNo" : {
+        "id" : "http://wso2jsonschema.org/0/cardNo",
+        "type" : "string"
+      },
+      "passwordTandA" : {
+        "id" : "http://wso2jsonschema.org/0/passwordTandA",
+        "type" : "null"
+      },
+      "nextOfKind" : {
+        "id" : "http://wso2jsonschema.org/0/nextOfKind",
+        "type" : "null"
+      },
+      "nextPhone" : {
+        "id" : "http://wso2jsonschema.org/0/nextPhone",
+        "type" : "null"
+      },
+      "role" : {
+        "id" : "http://wso2jsonschema.org/0/role",
+        "type" : "string"
+      },
+      "rank" : {
+        "id" : "http://wso2jsonschema.org/0/rank",
+        "type" : "string"
+      },
+      "costCentre" : {
+        "id" : "http://wso2jsonschema.org/0/costCentre",
+        "type" : "string"
+      },
+      "costCentreExtCode" : {
+        "id" : "http://wso2jsonschema.org/0/costCentreExtCode",
+        "type" : "null"
+      },
+      "punchType" : {
+        "id" : "http://wso2jsonschema.org/0/punchType",
+        "type" : "string"
+      },
+      "sex" : {
+        "id" : "http://wso2jsonschema.org/0/sex",
+        "type" : "string"
+      },
+      "myDistrict" : {
+        "id" : "http://wso2jsonschema.org/0/myDistrict",
+        "type" : "null"
+      },
+      "reportingTo" : {
+        "id" : "http://wso2jsonschema.org/0/reportingTo",
+        "type" : "null"
+      },
+      "hasBankId" : {
+        "id" : "http://wso2jsonschema.org/0/hasBankId",
+        "type" : "string"
+      },
+      "legalGuardianName" : {
+        "id" : "http://wso2jsonschema.org/0/legalGuardianName",
+        "type" : "null"
+      },
+      "legalGuardianEmail" : {
+        "id" : "http://wso2jsonschema.org/0/legalGuardianEmail",
+        "type" : "null"
+      },
+      "additionalFields__item__key" : {
+        "id" : "http://wso2jsonschema.org/0/additionalFields__item__key",
+        "type" : "string"
+      },
+      "additionalFields__item__value" : {
+        "id" : "http://wso2jsonschema.org/0/additionalFields__item__value",
+        "type" : "null"
+      },
+      "groupRoles" : {
+        "id" : "http://wso2jsonschema.org/0/groupRoles",
+        "type" : "null"
+      },
+      "ts" : {
+        "id" : "http://wso2jsonschema.org/0/ts",
+        "type" : "string"
+      },
+      "﻿\"id\"" : {
+        "id" : "http://wso2jsonschema.org/0/﻿\"id\"",
+        "type" : "string"
+      }
+    },
+    "id" : "http://wso2jsonschema.org/0",
+    "type" : "object"
+  } ]
+}

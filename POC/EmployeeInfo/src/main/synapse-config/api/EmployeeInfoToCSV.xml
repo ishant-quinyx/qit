@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/translateEmployeeInfo" name="EmployeeInfoToCSV" version="1.0.0" version-type="context" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <!-- 
+            <log level="full">
+                <property expression="get-property('body')" name="Body"/>
+            </log>
+             -->
+            <!-- 
+                        <log level="full" separator="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;@@@@@@@@@@@@@@@@@@@@@@@@@@&#xa;">
+                            <property expression="$body//API_key" name="APIKey inside Iterate"/>
+                        </log>
+                         -->
+            <payloadFactory media-type="xml">
+                <format>
+                    <uri:wsdlGetUnitsAPIKey soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:uri="uri:FlexForce" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <apiKey xsi:type="xsd:string">$1</apiKey>
+                    </uri:wsdlGetUnitsAPIKey>
+                </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property(&quot;query.param.apikey&quot;)"/>
+                </args>
+            </payloadFactory>
+            <call>
+                <endpoint>
+                    <address format="soap11" uri="https://test.quinyx.com/FlexForceWebServices.php">
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>-1</progressionFactor>
+                            <maximumDuration>0</maximumDuration>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </address>
+                </endpoint>
+            </call>
+            <!-- 
+            <callout action="uri:FlexForce/GetUnitsAPIKey" endpointKey="conf:myresources/wsdlEmdpoint.xml">
+                <source type="envelope"/>
+                <target key="APIResponse"/>
+            </callout>
+            <payloadFactory media-type="xml">
+                <format>
+                    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+                        <soapenv:Body>
+							$1
+						</soapenv:Body>
+                    </soapenv:Envelope>
+                </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property(&quot;APIResponse&quot;)"/>
+                </args>
+            </payloadFactory>
+             -->
+            <property expression="count($body//item)" name="countRequests" scope="default" type="STRING"/>
+            <log level="full" separator="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;@@@@@@@@@@@@@@@@@@@@@@@@@@&#xa;">
+                <property expression="$body" name="BodyPost First Callout"/>
+                <property expression="." name="Current Message In flow"/>
+                <property expression="get-property(&quot;countRequests&quot;)" name="Number Of Requests"/>
+            </log>
+            <iterate expression="s11:Body/ns1:wsdlGetUnitsAPIKeyResponse/return/item" xmlns:ns1="uri:FlexForce" xmlns:s11="http://schemas.xmlsoap.org/soap/envelope/">
+                <target>
+                    <sequence>
+                        <payloadFactory media-type="xml">
+                            <format>
+                                <uri:wsdlGetEmployeesV2 soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:uri="uri:FlexForce" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                    <apiKey xsi:type="xsd:string">$1</apiKey>
+                                    <sectionId xsi:type="xsd:int"/>
+                                    <employeeId xsi:type="xsd:int"/>
+                                    <badgeNo xsi:type="xsd:string"/>
+                                    <lastModified xsi:type="xsd:string"/>
+                                    <includeNeoRoles xsi:type="xsd:boolean"/>
+                                </uri:wsdlGetEmployeesV2>
+                            </format>
+                            <args>
+                                <arg evaluator="xml" expression="$body//API_key"/>
+                            </args>
+                        </payloadFactory>
+                        <call>
+                            <endpoint>
+                                <address format="soap11" uri="https://test.quinyx.com/FlexForceWebServices.php">
+                                    <suspendOnFailure>
+                                        <initialDuration>-1</initialDuration>
+                                        <progressionFactor>-1</progressionFactor>
+                                        <maximumDuration>0</maximumDuration>
+                                    </suspendOnFailure>
+                                    <markForSuspension>
+                                        <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                                    </markForSuspension>
+                                </address>
+                            </endpoint>
+                        </call>
+                        <!-- 
+                        <log level="full" separator="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;@@@@@@@@@@@@@@@@@@@@@@@@@@&#xa;">
+                            <property expression="$body" name="Body"/>
+                            <property expression="." name="Curent Message in Flow Post Call In Iterate"/>
+                        </log> -->
+                        <!--  -->
+                    </sequence>
+                </target>
+            </iterate>
+            <aggregate id="IterationsAggregator">
+                <correlateOn expression="$env"/>
+                <completeCondition>
+                    <messageCount max="{get-property(&quot;countRequests&quot;)}" min="{get-property(&quot;countRequests&quot;)}"/>
+                </completeCondition>
+                <onComplete expression="$body/*[1]">
+                    <xslt key="conf:myresources/InputParam.xslt" source="$body" xmlns:ns1="uri:FlexForce" xmlns:s11="http://schemas.xmlsoap.org/soap/envelope/"/>
+                    <log level="full" separator="&#xa;&#xa;&#xa;&#xa;&#xa;@@@@@@@@@@@@@@@@@@@@@@@@@@&#xa;">
+                        <property expression="$body" name="BodyPost Namespace Removal"/>
+                    </log>
+                    <payloadFactory media-type="xml">
+                        <format>
+                            <AggregatedResponses>$1</AggregatedResponses>
+                        </format>
+                        <args>
+                            <arg evaluator="xml" expression="$body/wsdlGetEmployeesV2Response[*]"/>
+                        </args>
+                    </payloadFactory>
+                    <datamapper config="gov:datamapper/5NewConfig.dmc" inputSchema="gov:datamapper/5NewConfig_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/5NewConfig_outputSchema.json" outputType="CSV" xsltStyleSheet="gov:datamapper/5NewConfig_xsltStyleSheet.xml"/>
+                    <property action="remove" name="REST_URL_POSTFIX" scope="axis2"/>
+                    <payloadFactory media-type="text">
+                        <format>$1</format>
+                        <args>
+                            <arg evaluator="xml" expression="$body/ns1:text" xmlns:ns1="http://ws.apache.org/commons/ns/payload"/>
+                        </args>
+                    </payloadFactory>
+                    <send>
+                        <endpoint name="FileWriter">
+                            <address statistics="enable" trace="enable" uri="vfs:sftp://ishantgarg:Summers2020@192.168.1.8">
+                                <suspendOnFailure>
+                                    <initialDuration>-1</initialDuration>
+                                    <progressionFactor>1</progressionFactor>
+                                </suspendOnFailure>
+                                <markForSuspension>
+                                    <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                                </markForSuspension>
+                            </address>
+                            <property name="transport.vfs.ContentType" scope="transport" value="text/xml"/>
+                            <property name="OUT_ONLY" value="true"/>
+                            <property name="transport.vfs.ReplyFileName" scope="transport" value="testFile.csv"/>
+                            <property name="transport.vfs.Locking" scope="transport" value="disable"/>
+                        </endpoint>
+                    </send>
+                </onComplete>
+            </aggregate>
+        </inSequence>
+        <outSequence>
+            <payloadFactory media-type="json">
+                <format>CSV file created. Process is complete now.</format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>

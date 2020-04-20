@@ -1,0 +1,233 @@
+{
+	"$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+	"inputType": "XML",
+	"id": "http:\/\/wso2jsonschema.org",
+	"title": "AggregatedResponses",
+	"type": "object",
+	"properties": {
+		"wsdlGetEmployeesV2Response": {
+			"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response",
+			"type": "array",
+			"items": [
+				{
+					"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0",
+					"type": "object",
+					"properties": {
+						"return": {
+							"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return",
+							"type": "object",
+							"properties": {
+								"item": {
+									"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item",
+									"type": "array",
+									"items": [
+										{
+											"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0",
+											"type": "object",
+											"properties": {
+												"country": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/country",
+													"type": "null"
+												},
+												"restId": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/restId",
+													"type": "string"
+												},
+												"role": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/role",
+													"type": "string"
+												},
+												"additionalFields": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/additionalFields",
+													"type": "object",
+													"properties": {
+														"item": {
+															"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/additionalFields\/item",
+															"type": "array",
+															"items": [
+																{
+																	"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/additionalFields\/item\/0",
+																	"type": "object",
+																	"properties": {
+																		"value": {
+																			"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/additionalFields\/item\/0\/value",
+																			"type": "null"
+																		},
+																		"key": {
+																			"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/additionalFields\/item\/0\/key",
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													}
+												},
+												"city": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/city",
+													"type": "string"
+												},
+												"hasBankId": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/hasBankId",
+													"type": "string"
+												},
+												"industryDate": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/industryDate",
+													"type": "string"
+												},
+												"groupRoles": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/groupRoles",
+													"type": "null"
+												},
+												"section": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/section",
+													"type": "string"
+												},
+												"staffCatName": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/staffCatName",
+													"type": "string"
+												},
+												"cardNo": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/cardNo",
+													"type": "string"
+												},
+												"legalGuardianEmail": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/legalGuardianEmail",
+													"type": "null"
+												},
+												"phoneNo": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/phoneNo",
+													"type": "null"
+												},
+												"nextPhone": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/nextPhone",
+													"type": "null"
+												},
+												"sectionName": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/sectionName",
+													"type": "null"
+												},
+												"punchType": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/punchType",
+													"type": "string"
+												},
+												"lockStatus": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/lockStatus",
+													"type": "string"
+												},
+												"costCentreExtCode": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/costCentreExtCode",
+													"type": "null"
+												},
+												"familyName": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/familyName",
+													"type": "string"
+												},
+												"legalGuardianName": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/legalGuardianName",
+													"type": "null"
+												},
+												"rank": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/rank",
+													"type": "string"
+												},
+												"staffCat": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/staffCat",
+													"type": "string"
+												},
+												"id": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/id",
+													"type": "string"
+												},
+												"employedDate": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/employedDate",
+													"type": "string"
+												},
+												"badgeNo": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/badgeNo",
+													"type": "string"
+												},
+												"email": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/email",
+													"type": "string"
+												},
+												"reportingTo": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/reportingTo",
+													"type": "null"
+												},
+												"info": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/info",
+													"type": "null"
+												},
+												"zip": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/zip",
+													"type": "null"
+												},
+												"nextOfKind": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/nextOfKind",
+													"type": "null"
+												},
+												"passwordTandA": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/passwordTandA",
+													"type": "null"
+												},
+												"address2": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/address2",
+													"type": "null"
+												},
+												"socsecNo": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/socsecNo",
+													"type": "null"
+												},
+												"address1": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/address1",
+													"type": "null"
+												},
+												"givenName": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/givenName",
+													"type": "string"
+												},
+												"sex": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/sex",
+													"type": "string"
+												},
+												"active": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/active",
+													"type": "string"
+												},
+												"dateOfBirth": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/dateOfBirth",
+													"type": "string"
+												},
+												"costCentre": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/costCentre",
+													"type": "string"
+												},
+												"passive": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/passive",
+													"type": "string"
+												},
+												"leaveDate": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/leaveDate",
+													"type": "string"
+												},
+												"cellPhone": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/cellPhone",
+													"type": "null"
+												},
+												"ts": {
+													"id": "http:\/\/wso2jsonschema.org\/wsdlGetEmployeesV2Response\/0\/return\/item\/0\/ts",
+													"type": "string"
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+	}
+}

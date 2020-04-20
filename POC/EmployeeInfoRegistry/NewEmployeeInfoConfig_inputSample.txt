@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <wsdlGetEmployeesV2>
+            <apiKey>6081-c2d6-aedb-2efd</apiKey>
+            <sectionId/>
+            <employeeId/>
+            <badgeNo/>
+            <lastModified/>
+            <includeNeoRoles/>
+            <wsdlGetEmployeesV2Response>
+                <return>
+                    <item>
+                        <id>31467</id>
+                        <badgeNo>1049</badgeNo>
+                        <givenName>Michael</givenName>
+                        <familyName>Adams</familyName>
+                        <address1>11 James Street</address1>
+                        <address2/>
+                        <zip>333435</zip>
+                        <city>London</city>
+                        <cellPhone>+44980340222</cellPhone>
+                        <phoneNo/>
+                        <email>mike@quinyx.com</email>
+                        <active>1</active>
+                        <leaveDate>2020-03-24</leaveDate>
+                        <socsecNo/>
+                        <country>United Kingdom</country>
+                        <restId>1009</restId>
+                        <staffCat>1914</staffCat>
+                        <staffCatName>District manager</staffCatName>
+                        <section>1</section>
+                        <sectionName/>
+                        <passive>0</passive>
+                        <lockStatus>0</lockStatus>
+                        <info>Business Manager</info>
+                        <dateOfBirth>1960-07-31</dateOfBirth>
+                        <employedDate>2009-09-13</employedDate>
+                        <industryDate>2009-09-13</industryDate>
+                        <cardNo>1019</cardNo>
+                        <passwordTandA>bd4952f9be61f5dfbd5b5e3a1553372b</passwordTandA>
+                        <nextOfKind/>
+                        <nextPhone/>
+                        <role>3</role>
+                        <rank>50</rank>
+                        <costCentre>0</costCentre>
+                        <costCentreExtCode/>
+                        <punchType>0</punchType>
+                        <sex>0</sex>
+                        <myDistrict>150</myDistrict>
+                        <reportingTo>4000</reportingTo>
+                        <hasBankId>0</hasBankId>
+                        <legalGuardianName/>
+                        <legalGuardianEmail/>
+                        <additionalFields>
+                            <item>
+                                <key>bankaccount</key>
+                                <value/>
+                            </item>
+                            <item>
+                                <key>level</key>
+                                <value/>
+                            </item>
+                        </additionalFields>
+                        <groupRoles/>
+                        <ts>2020-03-24T11:22:24+01:00</ts>
+                    </item>
+                </return>
+            </wsdlGetEmployeesV2Response>
+        </wsdlGetEmployeesV2>
+    </soapenv:Body>
+</soapenv:Envelope>

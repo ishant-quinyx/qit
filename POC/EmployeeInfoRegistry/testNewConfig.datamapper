@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="ns1:wsdlGetEmployeesV2Response" schemaDataType="OBJECT" level="1">
+      <node name="return,xsi:type=SOAP-ENC:Array" schemaDataType="OBJECT" level="2">
+        <node name="@xsi:type" schemaDataType="STRING" level="3">
+          <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/xsi:type"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="@SOAP-ENC:arrayType" schemaDataType="STRING" level="3">
+          <properties key="namespaces" value="{prefix=SOAP-ENC, url=http://schemas.xmlsoap.org/soap/encoding/}"/>
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/SOAP-ENC:arrayType"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="item,xsi:type=tns:Employee" level="3">
+          <node name="@xsi:type" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="id,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/id,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="badgeNo,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/badgeNo,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="givenName,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/givenName,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="familyName,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/familyName,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="address1,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/address1,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="address2,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/address2,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="zip,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/zip,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="city,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/city,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="cellPhone,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/cellPhone,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="phoneNo,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/phoneNo,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="email,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/email,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="active,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/active,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="leaveDate,xsi:type=xsd:date" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/leaveDate,xsi:type=xsd:date"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="socsecNo,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/socsecNo,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="country,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/country,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="restId,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/restId,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="staffCat,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/staffCat,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="staffCatName,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/staffCatName,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="section,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/section,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="sectionName,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/sectionName,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="passive,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/passive,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="lockStatus,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/lockStatus,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="info,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/info,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="dateOfBirth,xsi:type=xsd:date" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/dateOfBirth,xsi:type=xsd:date"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="employedDate,xsi:type=xsd:date" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/employedDate,xsi:type=xsd:date"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="industryDate,xsi:type=xsd:date" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/industryDate,xsi:type=xsd:date"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="cardNo,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/cardNo,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="passwordTandA,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/passwordTandA,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="nextOfKind,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/nextOfKind,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="nextPhone,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/nextPhone,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="role,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/role,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="rank,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/rank,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="costCentre,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/costCentre,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="costCentreExtCode,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/costCentreExtCode,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="punchType,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/punchType,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="sex,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/sex,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="reportingTo,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/reportingTo,xsi:type=xsd:string"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="hasBankId,xsi:type=xsd:int" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/hasBankId,xsi:type=xsd:int"/>
+            <properties key="object_value_type" value="number"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="legalGuardianName,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/legalGuardianName,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="legalGuardianEmail,xsi:type=xsd:string" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/legalGuardianEmail,xsi:type=xsd:string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="additionalFields,xsi:type=SOAP-ENC:Array" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="@SOAP-ENC:arrayType" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=SOAP-ENC, url=http://schemas.xmlsoap.org/soap/encoding/}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/SOAP-ENC:arrayType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="item,xsi:type=tns:AdditionalFieldData" level="5">
+              <node name="@xsi:type" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="key,xsi:type=xsd:string" schemaDataType="OBJECT" level="6">
+                <node name="@xsi:type" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/key,xsi:type=xsd:string"/>
+                <properties key="object_value_type" value="string"/>
+                <properties key="nullable" value="false"/>
+                <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type]}"/>
+                <properties key="attribute_type" value="{attribute_type=[string]}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="value,xsi:type=xsd:string" schemaDataType="OBJECT" level="6">
+                <node name="@xsi:type" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/value,xsi:type=xsd:string"/>
+                <properties key="nullable" value="false"/>
+                <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type]}"/>
+                <properties key="attribute_type" value="{attribute_type=[string]}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="array"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData"/>
+              <properties key="items_id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0"/>
+              <properties key="items_type" value="object"/>
+              <properties key="nullable" value="false"/>
+              <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type]}"/>
+              <properties key="attribute_type" value="{attribute_type=[string]}"/>
+              <properties key="properties_id" value="{key,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/key,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}, value,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/value,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/xsi:type, http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/SOAP-ENC:arrayType]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string, string]}"/>
+            <properties key="properties_id" value="{item,xsi:type=tns:AdditionalFieldData={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData, type=array, items=[{id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0, type=object, properties={key,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/key,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}, value,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/value,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}]}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="groupRoles,xsi:type=SOAP-ENC:Array" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="@SOAP-ENC:arrayType" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=SOAP-ENC, url=http://schemas.xmlsoap.org/soap/encoding/}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/SOAP-ENC:arrayType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/groupRoles,xsi:type=SOAP-ENC:Array"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/SOAP-ENC:arrayType]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string, string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="ts,xsi:type=xsd:dateTime" schemaDataType="OBJECT" level="4">
+            <node name="@xsi:type" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/ts,xsi:type=xsd:dateTime"/>
+            <properties key="object_value_type" value="string"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string]}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="array"/>
+          <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee"/>
+          <properties key="items_id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0"/>
+          <properties key="items_type" value="object"/>
+          <properties key="nullable" value="false"/>
+          <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type]}"/>
+          <properties key="attribute_type" value="{attribute_type=[string]}"/>
+          <properties key="properties_id" value="{id,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/id,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, badgeNo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/badgeNo,xsi:type=xsd:string, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, givenName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/givenName,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, familyName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/familyName,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, address1,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/address1,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, address2,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/address2,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, zip,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/zip,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, city,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/city,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, cellPhone,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/cellPhone,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, phoneNo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/phoneNo,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, email,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/email,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, active,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/active,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, leaveDate,xsi:type=xsd:date={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/leaveDate,xsi:type=xsd:date, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, socsecNo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/socsecNo,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, country,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/country,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, restId,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/restId,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, staffCat,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/staffCat,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, staffCatName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/staffCatName,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, section,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/section,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, sectionName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/sectionName,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, passive,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/passive,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, lockStatus,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/lockStatus,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, info,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/info,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, dateOfBirth,xsi:type=xsd:date={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/dateOfBirth,xsi:type=xsd:date, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, employedDate,xsi:type=xsd:date={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/employedDate,xsi:type=xsd:date, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, industryDate,xsi:type=xsd:date={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/industryDate,xsi:type=xsd:date, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, cardNo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/cardNo,xsi:type=xsd:string, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, passwordTandA,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/passwordTandA,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, nextOfKind,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/nextOfKind,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, nextPhone,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/nextPhone,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, role,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/role,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, rank,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/rank,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, costCentre,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/costCentre,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, costCentreExtCode,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/costCentreExtCode,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, punchType,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/punchType,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, sex,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/sex,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, reportingTo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/reportingTo,xsi:type=xsd:string, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, hasBankId,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/hasBankId,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, legalGuardianName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/legalGuardianName,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, legalGuardianEmail,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/legalGuardianEmail,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, additionalFields,xsi:type=SOAP-ENC:Array={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array, type=object, properties={item,xsi:type=tns:AdditionalFieldData={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData, type=array, items=[{id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0, type=object, properties={key,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/key,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}, value,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/value,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}]}}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/xsi:type, type=string}, SOAP-ENC:arrayType={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/SOAP-ENC:arrayType, type=string}}}, groupRoles,xsi:type=SOAP-ENC:Array={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/groupRoles,xsi:type=SOAP-ENC:Array, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}, SOAP-ENC:arrayType={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/SOAP-ENC:arrayType, type=string}}}, ts,xsi:type=xsd:dateTime={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/ts,xsi:type=xsd:dateTime, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array"/>
+        <properties key="nullable" value="false"/>
+        <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/xsi:type, http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/SOAP-ENC:arrayType]}"/>
+        <properties key="attribute_type" value="{attribute_type=[string, string]}"/>
+        <properties key="properties_id" value="{item,xsi:type=tns:Employee={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee, type=array, items=[{id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0, type=object, properties={id,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/id,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, badgeNo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/badgeNo,xsi:type=xsd:string, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, givenName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/givenName,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, familyName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/familyName,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, address1,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/address1,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, address2,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/address2,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, zip,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/zip,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, city,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/city,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, cellPhone,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/cellPhone,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, phoneNo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/phoneNo,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, email,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/email,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, active,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/active,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, leaveDate,xsi:type=xsd:date={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/leaveDate,xsi:type=xsd:date, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, socsecNo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/socsecNo,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, country,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/country,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, restId,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/restId,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, staffCat,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/staffCat,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, staffCatName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/staffCatName,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, section,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/section,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, sectionName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/sectionName,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, passive,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/passive,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, lockStatus,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/lockStatus,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, info,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/info,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, dateOfBirth,xsi:type=xsd:date={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/dateOfBirth,xsi:type=xsd:date, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, employedDate,xsi:type=xsd:date={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/employedDate,xsi:type=xsd:date, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, industryDate,xsi:type=xsd:date={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/industryDate,xsi:type=xsd:date, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, cardNo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/cardNo,xsi:type=xsd:string, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, passwordTandA,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/passwordTandA,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, nextOfKind,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/nextOfKind,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, nextPhone,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/nextPhone,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, role,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/role,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, rank,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/rank,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, costCentre,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/costCentre,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, costCentreExtCode,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/costCentreExtCode,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, punchType,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/punchType,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, sex,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/sex,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, reportingTo,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/reportingTo,xsi:type=xsd:string, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, hasBankId,xsi:type=xsd:int={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/hasBankId,xsi:type=xsd:int, type=object, value={type=number}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, legalGuardianName,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/legalGuardianName,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, legalGuardianEmail,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/legalGuardianEmail,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}, additionalFields,xsi:type=SOAP-ENC:Array={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array, type=object, properties={item,xsi:type=tns:AdditionalFieldData={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData, type=array, items=[{id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0, type=object, properties={key,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/key,xsi:type=xsd:string, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}, value,xsi:type=xsd:string={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/value,xsi:type=xsd:string, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:AdditionalFieldData/0/xsi:type, type=string}}}]}}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/xsi:type, type=string}, SOAP-ENC:arrayType={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/additionalFields,xsi:type=SOAP-ENC:Array/SOAP-ENC:arrayType, type=string}}}, groupRoles,xsi:type=SOAP-ENC:Array={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/groupRoles,xsi:type=SOAP-ENC:Array, type=object, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}, SOAP-ENC:arrayType={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/SOAP-ENC:arrayType, type=string}}}, ts,xsi:type=xsd:dateTime={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/ts,xsi:type=xsd:dateTime, type=object, value={type=string}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}}, attributes={xsi:type={id=http://wso2jsonschema.org/return,xsi:type=SOAP-ENC:Array/item,xsi:type=tns:Employee/0/xsi:type, type=string}}}]}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=ns1, url=uri:FlexForce},{prefix=xsd, url=http://www.w3.org/2001/XMLSchema},{prefix=tns, url=https://test.quinyx.com/soap/FlexForce},{prefix=SOAP-ENC, url=http://schemas.xmlsoap.org/soap/encoding/},{prefix=xsi, url=http://www.w3.org/2001/XMLSchema-instance}"/>
+      <properties key="namespaces" value="{prefix=ns1, url=uri:FlexForce}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="@mlns" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/mlns"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="item" level="2">
+        <node name="id" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/item/0/id"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.2/@node.1/@node.0/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="badgeNo" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/item/0/badgeNo"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.2/@node.2/@node.0/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="givenName" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/item/0/givenName"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="familyName" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/item/0/familyName"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="arrayInterrelatedElement" value="inputns1_wsdlGetEmployeesV2Response.return_Separat0r_xsi_type_SOAP_EnC0DeCHaRHyPh3n_ENC_Array.item_Separat0r_xsi_type_tns_Employee"/>
+        <properties key="added_properties_id" value="hasProperties"/>
+        <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+        <properties key="nullable" value="false"/>
+        <properties key="items_id" value="http://wso2jsonschema.org/item/0"/>
+        <properties key="items_type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/item"/>
+        <properties key="type" value="array"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/mlns]}"/>
+      <properties key="attribute_type" value="{attribute_type=[null]}"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

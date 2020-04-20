@@ -1,0 +1,6 @@
+map_S_wsdlGetEmployeesV2Response_S_root = function(){ 
+var outputroot={};
+
+return outputroot;
+};
+

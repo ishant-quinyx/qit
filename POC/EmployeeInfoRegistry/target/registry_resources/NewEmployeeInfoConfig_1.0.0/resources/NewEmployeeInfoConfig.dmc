@@ -1,0 +1,10 @@
+map_S_Envelope_S_root = function(){ 
+        var outputroot={};
+        
+        outputroot =  [];
+        outputroot[0] =  {};
+        outputroot[0]['﻿id'] = (inputsoapenv_Envelope.soapenv_Body.wsdlGetEmployeesV2.wsdlGetEmployeesV2Response.return.item.id).toString();
+        outputroot[0].givenName = inputsoapenv_Envelope.soapenv_Body.wsdlGetEmployeesV2.wsdlGetEmployeesV2Response.return.item.givenName;
+        outputroot[0].familyName = inputsoapenv_Envelope.soapenv_Body.wsdlGetEmployeesV2.wsdlGetEmployeesV2Response.return.item.familyName;
+        return outputroot;
+        };

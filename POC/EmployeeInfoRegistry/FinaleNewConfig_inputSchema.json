@@ -1,0 +1,232 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "wsdlGetEmployeesV2Response" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response",
+          "type" : "object",
+          "properties" : {
+            "return" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return",
+              "type" : "object",
+              "properties" : {
+                "item" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item",
+                  "type" : "array",
+                  "items" : [ {
+                    "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0",
+                    "type" : "object",
+                    "properties" : {
+                      "id" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/id",
+                        "type" : "string"
+                      },
+                      "badgeNo" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/badgeNo",
+                        "type" : "number"
+                      },
+                      "givenName" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/givenName",
+                        "type" : "string"
+                      },
+                      "familyName" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/familyName",
+                        "type" : "string"
+                      },
+                      "address1" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/address1",
+                        "type" : "string"
+                      },
+                      "address2" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/address2",
+                        "type" : "null"
+                      },
+                      "zip" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/zip",
+                        "type" : "string"
+                      },
+                      "city" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/city",
+                        "type" : "string"
+                      },
+                      "cellPhone" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/cellPhone",
+                        "type" : "string"
+                      },
+                      "phoneNo" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/phoneNo",
+                        "type" : "null"
+                      },
+                      "email" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/email",
+                        "type" : "string"
+                      },
+                      "active" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/active",
+                        "type" : "number"
+                      },
+                      "leaveDate" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/leaveDate",
+                        "type" : "string"
+                      },
+                      "socsecNo" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/socsecNo",
+                        "type" : "null"
+                      },
+                      "country" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/country",
+                        "type" : "string"
+                      },
+                      "restId" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/restId",
+                        "type" : "number"
+                      },
+                      "staffCat" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/staffCat",
+                        "type" : "number"
+                      },
+                      "staffCatName" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/staffCatName",
+                        "type" : "string"
+                      },
+                      "section" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/section",
+                        "type" : "number"
+                      },
+                      "sectionName" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/sectionName",
+                        "type" : "null"
+                      },
+                      "passive" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/passive",
+                        "type" : "number"
+                      },
+                      "lockStatus" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/lockStatus",
+                        "type" : "number"
+                      },
+                      "info" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/info",
+                        "type" : "null"
+                      },
+                      "dateOfBirth" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/dateOfBirth",
+                        "type" : "string"
+                      },
+                      "employedDate" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/employedDate",
+                        "type" : "string"
+                      },
+                      "industryDate" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/industryDate",
+                        "type" : "string"
+                      },
+                      "cardNo" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/cardNo",
+                        "type" : "number"
+                      },
+                      "passwordTandA" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/passwordTandA",
+                        "type" : "null"
+                      },
+                      "nextOfKind" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/nextOfKind",
+                        "type" : "null"
+                      },
+                      "nextPhone" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/nextPhone",
+                        "type" : "null"
+                      },
+                      "role" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/role",
+                        "type" : "number"
+                      },
+                      "rank" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/rank",
+                        "type" : "number"
+                      },
+                      "costCentre" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/costCentre",
+                        "type" : "number"
+                      },
+                      "costCentreExtCode" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/costCentreExtCode",
+                        "type" : "null"
+                      },
+                      "punchType" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/punchType",
+                        "type" : "number"
+                      },
+                      "sex" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/sex",
+                        "type" : "number"
+                      },
+                      "reportingTo" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/reportingTo",
+                        "type" : "number"
+                      },
+                      "hasBankId" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/hasBankId",
+                        "type" : "number"
+                      },
+                      "legalGuardianName" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/legalGuardianName",
+                        "type" : "null"
+                      },
+                      "legalGuardianEmail" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/legalGuardianEmail",
+                        "type" : "null"
+                      },
+                      "additionalFields" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/additionalFields",
+                        "type" : "object",
+                        "properties" : {
+                          "item" : {
+                            "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/additionalFields/item",
+                            "type" : "array",
+                            "items" : [ {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/additionalFields/item/0",
+                              "type" : "object",
+                              "properties" : {
+                                "key" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/additionalFields/item/0/key",
+                                  "type" : "string"
+                                },
+                                "value" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/additionalFields/item/0/value",
+                                  "type" : "null"
+                                }
+                              }
+                            } ]
+                          }
+                        }
+                      },
+                      "groupRoles" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/groupRoles",
+                        "type" : "null"
+                      },
+                      "ts" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2Response/return/item/0/ts",
+                        "type" : "string"
+                      }
+                    }
+                  } ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  } ]
+}

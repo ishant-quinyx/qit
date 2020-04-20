@@ -1,0 +1,18 @@
+map_S_wsdlGetEmployeesV2Response_S_root = function(){ 
+var outputroot={};
+
+var count_i_item_5008a5e4_9924_46dd_87f5_d648686130fe = 0;
+outputroot =  [];
+
+for(i_item_5008a5e4_9924_46dd_87f5_d648686130fe in inputwsdlGetEmployeesV2Response.return.item){
+outputroot[0] =  {};
+outputroot[0].givenName = inputwsdlGetEmployeesV2Response.return.item[i_item_5008a5e4_9924_46dd_87f5_d648686130fe].givenName;
+outputroot[0].familyName = inputwsdlGetEmployeesV2Response.return.item[i_item_5008a5e4_9924_46dd_87f5_d648686130fe].familyName;
+
+count_i_item_5008a5e4_9924_46dd_87f5_d648686130fe++;
+}
+return outputroot;
+};
+
+
+

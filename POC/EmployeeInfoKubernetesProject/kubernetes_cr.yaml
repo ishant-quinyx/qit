@@ -1,0 +1,9 @@
+---
+apiVersion: "integration.wso2.com/v1alpha1"
+kind: "Integration"
+metadata:
+  name: "employeeinfo"
+spec:
+  replicas: 2
+  image: "ishgarg/employeeinfo:1.0.0"
+  port: 32100

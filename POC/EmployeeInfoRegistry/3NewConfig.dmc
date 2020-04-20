@@ -1,0 +1,20 @@
+map_S_Envelope_S_root = function(){ 
+var outputroot={};
+
+var count_i_item_e2f86dad_c3e7_40b4_b9cf_5d5f11490138 = 0;
+outputroot =  [];
+
+for(i_item_e2f86dad_c3e7_40b4_b9cf_5d5f11490138 in inputsoapenv_Envelope.soapenv_Body.wsdlGetEmployeesV2Response.return.item){
+outputroot[0] =  {};
+outputroot[0].ID = (inputsoapenv_Envelope.soapenv_Body.wsdlGetEmployeesV2Response.return.item[i_item_e2f86dad_c3e7_40b4_b9cf_5d5f11490138].id).toString();
+outputroot[0].FirstName = inputsoapenv_Envelope.soapenv_Body.wsdlGetEmployeesV2Response.return.item[i_item_e2f86dad_c3e7_40b4_b9cf_5d5f11490138].givenName;
+outputroot[0].LastName = inputsoapenv_Envelope.soapenv_Body.wsdlGetEmployeesV2Response.return.item[i_item_e2f86dad_c3e7_40b4_b9cf_5d5f11490138].familyName;
+
+count_i_item_e2f86dad_c3e7_40b4_b9cf_5d5f11490138++;
+}
+return outputroot;
+};
+
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="EmployeeInfoToCSV" groupId="com.quinyx.EmployeeInfo.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/EmployeeInfoToCSV.xml</file>
+    </artifact>
+    <artifact name="GenerateCSV" groupId="com.quinyx.EmployeeInfo.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GenerateCSV.xml</file>
+    </artifact>
+    <artifact name="FileWriteProxy" groupId="com.quinyx.EmployeeInfo.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/FileWriteProxy.xml</file>
+    </artifact>
+    <artifact name="SendToEndpoint" groupId="com.quinyx.EmployeeInfo.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SendToEndpoint.xml</file>
+    </artifact>
+</artifacts>

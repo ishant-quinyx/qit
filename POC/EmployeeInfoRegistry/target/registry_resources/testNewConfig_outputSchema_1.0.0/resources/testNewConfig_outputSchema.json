@@ -1,0 +1,40 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "attributes" : {
+    "mlns" : {
+      "id" : "http://wso2jsonschema.org/mlns",
+      "type" : "null"
+    }
+  },
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "item" : {
+      "id" : "http://wso2jsonschema.org/item",
+      "type" : "array",
+      "items" : [ {
+        "id" : "http://wso2jsonschema.org/item/0",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "id" : "http://wso2jsonschema.org/item/0/id",
+            "type" : "number"
+          },
+          "badgeNo" : {
+            "id" : "http://wso2jsonschema.org/item/0/badgeNo",
+            "type" : "number"
+          },
+          "givenName" : {
+            "id" : "http://wso2jsonschema.org/item/0/givenName",
+            "type" : "string"
+          },
+          "familyName" : {
+            "id" : "http://wso2jsonschema.org/item/0/familyName",
+            "type" : "string"
+          }
+        }
+      } ]
+    }
+  }
+}

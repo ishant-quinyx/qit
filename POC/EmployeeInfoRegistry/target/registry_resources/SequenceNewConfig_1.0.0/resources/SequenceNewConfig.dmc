@@ -1,0 +1,24 @@
+map_S_return_S_root = function(){ 
+var outputroot={};
+
+var count_i_item_4839e0f7_41c9_4a74_b728_93e217607461 = 0;
+outputroot =  {};
+outputroot.items =  {};
+outputroot.items.item =  [];
+
+for(i_item_4839e0f7_41c9_4a74_b728_93e217607461 in inputreturn.item){
+outputroot.items.item[count_i_item_4839e0f7_41c9_4a74_b728_93e217607461] =  {};
+outputroot.items.item[count_i_item_4839e0f7_41c9_4a74_b728_93e217607461].id = inputreturn.item[i_item_4839e0f7_41c9_4a74_b728_93e217607461].id;
+outputroot.items.item[count_i_item_4839e0f7_41c9_4a74_b728_93e217607461].badgeNo = inputreturn.item[i_item_4839e0f7_41c9_4a74_b728_93e217607461].badgeNo;
+outputroot.items.item[count_i_item_4839e0f7_41c9_4a74_b728_93e217607461].givenName = inputreturn.item[i_item_4839e0f7_41c9_4a74_b728_93e217607461].givenName;
+
+count_i_item_4839e0f7_41c9_4a74_b728_93e217607461++;
+}
+return outputroot;
+};
+
+
+
+
+
+

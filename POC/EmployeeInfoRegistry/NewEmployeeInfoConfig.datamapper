@@ -1,0 +1,1989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="wsdlGetEmployeesV2" schemaDataType="OBJECT" level="3">
+          <node name="apiKey" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/apiKey"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="sectionId" schemaDataType="NULL" level="4">
+            <properties key="type" value="null"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/sectionId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="employeeId" schemaDataType="NULL" level="4">
+            <properties key="type" value="null"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/employeeId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="badgeNo" schemaDataType="NULL" level="4">
+            <properties key="type" value="null"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/badgeNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="lastModified" schemaDataType="NULL" level="4">
+            <properties key="type" value="null"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/lastModified"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="includeNeoRoles" schemaDataType="NULL" level="4">
+            <properties key="type" value="null"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/includeNeoRoles"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="wsdlGetEmployeesV2Response" schemaDataType="OBJECT" level="4">
+            <node name="return" schemaDataType="OBJECT" level="5">
+              <node name="item" schemaDataType="OBJECT" level="6">
+                <node name="id" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/id"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.0/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="badgeNo" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/badgeNo"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="givenName" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/givenName"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.2/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="familyName" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/familyName"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.3/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="address1" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address1"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="address2" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address2"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="zip" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/zip"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="city" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/city"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="cellPhone" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cellPhone"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="phoneNo" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/phoneNo"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="email" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/email"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="active" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/active"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="leaveDate" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/leaveDate"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="socsecNo" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/socsecNo"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="country" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/country"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="restId" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/restId"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="staffCat" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCat"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="staffCatName" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCatName"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="section" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/section"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="sectionName" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sectionName"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="passive" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passive"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="lockStatus" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/lockStatus"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="info" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/info"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="dateOfBirth" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/dateOfBirth"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="employedDate" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/employedDate"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="industryDate" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/industryDate"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="cardNo" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cardNo"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="passwordTandA" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passwordTandA"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="nextOfKind" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextOfKind"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="nextPhone" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextPhone"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="role" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/role"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="rank" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/rank"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="costCentre" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentre"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="costCentreExtCode" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentreExtCode"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="punchType" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/punchType"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="sex" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sex"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="myDistrict" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/myDistrict"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="reportingTo" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/reportingTo"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="hasBankId" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/hasBankId"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="legalGuardianName" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianName"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="legalGuardianEmail" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianEmail"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="additionalFields" schemaDataType="OBJECT" level="7">
+                  <node name="item" level="8">
+                    <node name="key" schemaDataType="STRING" level="9">
+                      <properties key="type" value="string"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/key"/>
+                      <properties key="nullable" value="false"/>
+                      <outNode/>
+                      <inNode/>
+                    </node>
+                    <node name="value" schemaDataType="NULL" level="9">
+                      <properties key="type" value="null"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/value"/>
+                      <properties key="nullable" value="false"/>
+                      <outNode/>
+                      <inNode/>
+                    </node>
+                    <properties key="type" value="array"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item"/>
+                    <properties key="items_id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0"/>
+                    <properties key="items_type" value="object"/>
+                    <properties key="nullable" value="false"/>
+                    <properties key="properties_id" value="{key={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/key, type=string}, value={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/value, type=null}}"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="properties_id" value="{item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item, type=array, items=[{id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0, type=object, properties={key={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/key, type=string}, value={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/value, type=null}}}]}}"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="groupRoles" schemaDataType="NULL" level="7">
+                  <properties key="type" value="null"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/groupRoles"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="ts" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/ts"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{id={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/id, type=number}, badgeNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/badgeNo, type=number}, givenName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/givenName, type=string}, familyName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/familyName, type=string}, address1={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address1, type=string}, address2={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address2, type=null}, zip={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/zip, type=number}, city={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/city, type=string}, cellPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cellPhone, type=string}, phoneNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/phoneNo, type=null}, email={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/email, type=string}, active={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/active, type=number}, leaveDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/leaveDate, type=string}, socsecNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/socsecNo, type=null}, country={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/country, type=string}, restId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/restId, type=number}, staffCat={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCat, type=number}, staffCatName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCatName, type=string}, section={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/section, type=number}, sectionName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sectionName, type=null}, passive={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passive, type=number}, lockStatus={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/lockStatus, type=number}, info={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/info, type=string}, dateOfBirth={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/dateOfBirth, type=string}, employedDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/employedDate, type=string}, industryDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/industryDate, type=string}, cardNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cardNo, type=number}, passwordTandA={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passwordTandA, type=string}, nextOfKind={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextOfKind, type=null}, nextPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextPhone, type=null}, role={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/role, type=number}, rank={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/rank, type=number}, costCentre={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentre, type=number}, costCentreExtCode={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentreExtCode, type=null}, punchType={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/punchType, type=number}, sex={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sex, type=number}, myDistrict={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/myDistrict, type=number}, reportingTo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/reportingTo, type=number}, hasBankId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/hasBankId, type=number}, legalGuardianName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianName, type=null}, legalGuardianEmail={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianEmail, type=null}, additionalFields={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields, type=object, properties={item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item, type=array, items=[{id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0, type=object, properties={key={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/key, type=string}, value={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/value, type=null}}}]}}}, groupRoles={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/groupRoles, type=null}, ts={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/ts, type=string}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item, type=object, properties={id={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/id, type=number}, badgeNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/badgeNo, type=number}, givenName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/givenName, type=string}, familyName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/familyName, type=string}, address1={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address1, type=string}, address2={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address2, type=null}, zip={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/zip, type=number}, city={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/city, type=string}, cellPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cellPhone, type=string}, phoneNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/phoneNo, type=null}, email={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/email, type=string}, active={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/active, type=number}, leaveDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/leaveDate, type=string}, socsecNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/socsecNo, type=null}, country={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/country, type=string}, restId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/restId, type=number}, staffCat={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCat, type=number}, staffCatName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCatName, type=string}, section={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/section, type=number}, sectionName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sectionName, type=null}, passive={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passive, type=number}, lockStatus={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/lockStatus, type=number}, info={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/info, type=string}, dateOfBirth={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/dateOfBirth, type=string}, employedDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/employedDate, type=string}, industryDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/industryDate, type=string}, cardNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cardNo, type=number}, passwordTandA={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passwordTandA, type=string}, nextOfKind={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextOfKind, type=null}, nextPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextPhone, type=null}, role={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/role, type=number}, rank={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/rank, type=number}, costCentre={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentre, type=number}, costCentreExtCode={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentreExtCode, type=null}, punchType={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/punchType, type=number}, sex={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sex, type=number}, myDistrict={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/myDistrict, type=number}, reportingTo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/reportingTo, type=number}, hasBankId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/hasBankId, type=number}, legalGuardianName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianName, type=null}, legalGuardianEmail={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianEmail, type=null}, additionalFields={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields, type=object, properties={item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item, type=array, items=[{id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0, type=object, properties={key={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/key, type=string}, value={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/value, type=null}}}]}}}, groupRoles={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/groupRoles, type=null}, ts={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/ts, type=string}}}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{return={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return, type=object, properties={item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item, type=object, properties={id={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/id, type=number}, badgeNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/badgeNo, type=number}, givenName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/givenName, type=string}, familyName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/familyName, type=string}, address1={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address1, type=string}, address2={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address2, type=null}, zip={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/zip, type=number}, city={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/city, type=string}, cellPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cellPhone, type=string}, phoneNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/phoneNo, type=null}, email={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/email, type=string}, active={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/active, type=number}, leaveDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/leaveDate, type=string}, socsecNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/socsecNo, type=null}, country={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/country, type=string}, restId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/restId, type=number}, staffCat={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCat, type=number}, staffCatName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCatName, type=string}, section={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/section, type=number}, sectionName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sectionName, type=null}, passive={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passive, type=number}, lockStatus={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/lockStatus, type=number}, info={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/info, type=string}, dateOfBirth={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/dateOfBirth, type=string}, employedDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/employedDate, type=string}, industryDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/industryDate, type=string}, cardNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cardNo, type=number}, passwordTandA={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passwordTandA, type=string}, nextOfKind={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextOfKind, type=null}, nextPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextPhone, type=null}, role={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/role, type=number}, rank={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/rank, type=number}, costCentre={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentre, type=number}, costCentreExtCode={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentreExtCode, type=null}, punchType={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/punchType, type=number}, sex={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sex, type=number}, myDistrict={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/myDistrict, type=number}, reportingTo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/reportingTo, type=number}, hasBankId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/hasBankId, type=number}, legalGuardianName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianName, type=null}, legalGuardianEmail={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianEmail, type=null}, additionalFields={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields, type=object, properties={item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item, type=array, items=[{id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0, type=object, properties={key={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/key, type=string}, value={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/value, type=null}}}]}}}, groupRoles={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/groupRoles, type=null}, ts={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/ts, type=string}}}}}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{apiKey={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/apiKey, type=string}, sectionId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/sectionId, type=null}, employeeId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/employeeId, type=null}, badgeNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/badgeNo, type=null}, lastModified={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/lastModified, type=null}, includeNeoRoles={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/includeNeoRoles, type=null}, wsdlGetEmployeesV2Response={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response, type=object, properties={return={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return, type=object, properties={item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item, type=object, properties={id={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/id, type=number}, badgeNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/badgeNo, type=number}, givenName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/givenName, type=string}, familyName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/familyName, type=string}, address1={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address1, type=string}, address2={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address2, type=null}, zip={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/zip, type=number}, city={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/city, type=string}, cellPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cellPhone, type=string}, phoneNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/phoneNo, type=null}, email={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/email, type=string}, active={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/active, type=number}, leaveDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/leaveDate, type=string}, socsecNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/socsecNo, type=null}, country={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/country, type=string}, restId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/restId, type=number}, staffCat={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCat, type=number}, staffCatName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCatName, type=string}, section={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/section, type=number}, sectionName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sectionName, type=null}, passive={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passive, type=number}, lockStatus={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/lockStatus, type=number}, info={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/info, type=string}, dateOfBirth={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/dateOfBirth, type=string}, employedDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/employedDate, type=string}, industryDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/industryDate, type=string}, cardNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cardNo, type=number}, passwordTandA={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passwordTandA, type=string}, nextOfKind={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextOfKind, type=null}, nextPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextPhone, type=null}, role={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/role, type=number}, rank={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/rank, type=number}, costCentre={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentre, type=number}, costCentreExtCode={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentreExtCode, type=null}, punchType={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/punchType, type=number}, sex={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sex, type=number}, myDistrict={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/myDistrict, type=number}, reportingTo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/reportingTo, type=number}, hasBankId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/hasBankId, type=number}, legalGuardianName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianName, type=null}, legalGuardianEmail={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianEmail, type=null}, additionalFields={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields, type=object, properties={item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item, type=array, items=[{id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0, type=object, properties={key={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/key, type=string}, value={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/value, type=null}}}]}}}, groupRoles={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/groupRoles, type=null}, ts={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/ts, type=string}}}}}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{wsdlGetEmployeesV2={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2, type=object, properties={apiKey={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/apiKey, type=string}, sectionId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/sectionId, type=null}, employeeId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/employeeId, type=null}, badgeNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/badgeNo, type=null}, lastModified={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/lastModified, type=null}, includeNeoRoles={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/includeNeoRoles, type=null}, wsdlGetEmployeesV2Response={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response, type=object, properties={return={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return, type=object, properties={item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item, type=object, properties={id={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/id, type=number}, badgeNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/badgeNo, type=number}, givenName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/givenName, type=string}, familyName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/familyName, type=string}, address1={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address1, type=string}, address2={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/address2, type=null}, zip={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/zip, type=number}, city={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/city, type=string}, cellPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cellPhone, type=string}, phoneNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/phoneNo, type=null}, email={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/email, type=string}, active={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/active, type=number}, leaveDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/leaveDate, type=string}, socsecNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/socsecNo, type=null}, country={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/country, type=string}, restId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/restId, type=number}, staffCat={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCat, type=number}, staffCatName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/staffCatName, type=string}, section={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/section, type=number}, sectionName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sectionName, type=null}, passive={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passive, type=number}, lockStatus={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/lockStatus, type=number}, info={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/info, type=string}, dateOfBirth={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/dateOfBirth, type=string}, employedDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/employedDate, type=string}, industryDate={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/industryDate, type=string}, cardNo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/cardNo, type=number}, passwordTandA={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/passwordTandA, type=string}, nextOfKind={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextOfKind, type=null}, nextPhone={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/nextPhone, type=null}, role={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/role, type=number}, rank={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/rank, type=number}, costCentre={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentre, type=number}, costCentreExtCode={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/costCentreExtCode, type=null}, punchType={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/punchType, type=number}, sex={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/sex, type=number}, myDistrict={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/myDistrict, type=number}, reportingTo={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/reportingTo, type=number}, hasBankId={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/hasBankId, type=number}, legalGuardianName={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianName, type=null}, legalGuardianEmail={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/legalGuardianEmail, type=null}, additionalFields={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields, type=object, properties={item={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item, type=array, items=[{id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0, type=object, properties={key={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/key, type=string}, value={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/additionalFields/item/0/value, type=null}}}]}}}, groupRoles={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/groupRoles, type=null}, ts={id=http://wso2jsonschema.org/soapenv:Body/wsdlGetEmployeesV2/wsdlGetEmployeesV2Response/return/item/ts, type=string}}}}}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="root" level="1">
+      <node name="﻿id" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/﻿id"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.6/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="badgeNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/badgeNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="givenName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/givenName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.6/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="familyName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/familyName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.6/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="address1" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address1"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="address2" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address2"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="zip" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/zip"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="city" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/city"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cellPhone" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cellPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="phoneNo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/phoneNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="email" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/email"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="active" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/active"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="leaveDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/leaveDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="socsecNo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/socsecNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="country" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/country"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="restId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/restId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCat" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCat"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCatName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCatName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="section" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/section"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sectionName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sectionName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passive" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passive"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="lockStatus" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/lockStatus"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="info" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/info"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="dateOfBirth" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/dateOfBirth"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="employedDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/employedDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="industryDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/industryDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cardNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cardNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passwordTandA" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passwordTandA"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextOfKind" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextOfKind"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextPhone" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="role" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/role"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="rank" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/rank"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentre" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentre"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentreExtCode" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentreExtCode"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="punchType" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/punchType"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sex" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sex"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="myDistrict" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/myDistrict"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="reportingTo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/reportingTo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="hasBankId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/hasBankId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianEmail" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianEmail"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="additionalFields" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/additionalFields"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="groupRoles" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/groupRoles"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="ts" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/ts"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="﻿id" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/﻿id"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="badgeNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/badgeNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="givenName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/givenName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="familyName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/familyName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="address1" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address1"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="address2" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address2"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="zip" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/zip"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="city" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/city"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cellPhone" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cellPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="phoneNo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/phoneNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="email" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/email"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="active" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/active"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="leaveDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/leaveDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="socsecNo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/socsecNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="country" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/country"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="restId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/restId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCat" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCat"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCatName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCatName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="section" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/section"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sectionName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sectionName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passive" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passive"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="lockStatus" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/lockStatus"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="info" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/info"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="dateOfBirth" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/dateOfBirth"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="employedDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/employedDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="industryDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/industryDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cardNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cardNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passwordTandA" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passwordTandA"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextOfKind" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextOfKind"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextPhone" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="role" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/role"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="rank" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/rank"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentre" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentre"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentreExtCode" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentreExtCode"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="punchType" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/punchType"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sex" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sex"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="myDistrict" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/myDistrict"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="reportingTo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/reportingTo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="hasBankId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/hasBankId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianEmail" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianEmail"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="additionalFields" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/additionalFields"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="groupRoles" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/groupRoles"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="ts" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/ts"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="﻿id" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/﻿id"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="badgeNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/badgeNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="givenName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/givenName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="familyName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/familyName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="address1" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address1"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="address2" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address2"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="zip" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/zip"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="city" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/city"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cellPhone" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cellPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="phoneNo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/phoneNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="email" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/email"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="active" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/active"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="leaveDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/leaveDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="socsecNo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/socsecNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="country" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/country"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="restId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/restId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCat" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCat"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCatName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCatName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="section" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/section"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sectionName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sectionName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passive" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passive"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="lockStatus" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/lockStatus"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="info" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/info"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="dateOfBirth" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/dateOfBirth"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="employedDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/employedDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="industryDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/industryDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cardNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cardNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passwordTandA" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passwordTandA"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextOfKind" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextOfKind"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextPhone" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="role" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/role"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="rank" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/rank"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentre" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentre"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentreExtCode" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentreExtCode"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="punchType" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/punchType"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sex" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sex"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="myDistrict" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/myDistrict"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="reportingTo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/reportingTo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="hasBankId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/hasBankId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianEmail" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianEmail"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="additionalFields" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/additionalFields"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="groupRoles" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/groupRoles"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="ts" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/ts"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="﻿id" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/﻿id"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="badgeNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/badgeNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="givenName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/givenName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="familyName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/familyName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="address1" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address1"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="address2" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address2"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="zip" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/zip"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="city" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/city"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cellPhone" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cellPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="phoneNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/phoneNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="email" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/email"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="active" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/active"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="leaveDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/leaveDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="socsecNo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/socsecNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="country" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/country"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="restId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/restId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCat" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCat"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCatName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCatName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="section" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/section"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sectionName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sectionName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passive" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passive"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="lockStatus" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/lockStatus"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="info" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/info"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="dateOfBirth" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/dateOfBirth"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="employedDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/employedDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="industryDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/industryDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cardNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cardNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passwordTandA" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passwordTandA"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextOfKind" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextOfKind"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextPhone" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="role" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/role"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="rank" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/rank"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentre" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentre"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentreExtCode" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentreExtCode"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="punchType" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/punchType"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sex" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sex"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="myDistrict" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/myDistrict"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="reportingTo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/reportingTo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="hasBankId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/hasBankId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianEmail" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianEmail"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="additionalFields" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/additionalFields"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="groupRoles" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/groupRoles"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="ts" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/ts"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="﻿id" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/﻿id"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="badgeNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/badgeNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="givenName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/givenName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="familyName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/familyName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="address1" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address1"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="address2" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/address2"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="zip" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/zip"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="city" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/city"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cellPhone" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cellPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="phoneNo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/phoneNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="email" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/email"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="active" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/active"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="leaveDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/leaveDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="socsecNo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/socsecNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="country" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/country"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="restId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/restId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCat" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCat"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="staffCatName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/staffCatName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="section" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/section"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sectionName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sectionName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passive" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passive"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="lockStatus" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/lockStatus"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="info" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/info"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="dateOfBirth" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/dateOfBirth"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="employedDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/employedDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="industryDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/industryDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="cardNo" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cardNo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="passwordTandA" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/passwordTandA"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextOfKind" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextOfKind"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="nextPhone" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/nextPhone"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="role" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/role"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="rank" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/rank"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentre" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentre"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="costCentreExtCode" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/costCentreExtCode"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="punchType" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/punchType"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="sex" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sex"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="myDistrict" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/myDistrict"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="reportingTo" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/reportingTo"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="hasBankId" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/hasBankId"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianName" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="legalGuardianEmail" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/legalGuardianEmail"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="additionalFields" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/additionalFields"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="groupRoles" schemaDataType="NULL" level="2">
+        <properties key="type" value="null"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/groupRoles"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="ts" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/ts"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="array"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="items_id" value="http://wso2jsonschema.org/0"/>
+      <properties key="items_type" value="object"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

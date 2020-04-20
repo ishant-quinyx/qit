@@ -1,0 +1,20 @@
+map_S_wsdlGetEmployeesV2Response_S_root = function(){ 
+var outputroot={};
+
+var count_i_item_Separat0r_xsi_type_tns_Employee_edf6f668_f2ae_40cd_bc3d_25b0ef816b11 = 0;
+outputroot =  {};
+outputroot.item =  [];
+
+for(i_item_Separat0r_xsi_type_tns_Employee_edf6f668_f2ae_40cd_bc3d_25b0ef816b11 in inputns1_wsdlGetEmployeesV2Response.return_Separat0r_xsi_type_SOAP_EnC0DeCHaRHyPh3n_ENC_Array.item_Separat0r_xsi_type_tns_Employee){
+outputroot.item[0] =  {};
+outputroot.item[0].id = Number(inputns1_wsdlGetEmployeesV2Response.return_Separat0r_xsi_type_SOAP_EnC0DeCHaRHyPh3n_ENC_Array.item_Separat0r_xsi_type_tns_Employee[i_item_Separat0r_xsi_type_tns_Employee_edf6f668_f2ae_40cd_bc3d_25b0ef816b11].id_Separat0r_xsi_type_xsd_int.attr_xsi_type);
+outputroot.item[0].badgeNo = Number(inputns1_wsdlGetEmployeesV2Response.return_Separat0r_xsi_type_SOAP_EnC0DeCHaRHyPh3n_ENC_Array.item_Separat0r_xsi_type_tns_Employee[i_item_Separat0r_xsi_type_tns_Employee_edf6f668_f2ae_40cd_bc3d_25b0ef816b11].badgeNo_Separat0r_xsi_type_xsd_string.attr_xsi_type);
+
+count_i_item_Separat0r_xsi_type_tns_Employee_edf6f668_f2ae_40cd_bc3d_25b0ef816b11++;
+}
+return outputroot;
+};
+
+
+
+

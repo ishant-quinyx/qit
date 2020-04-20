@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SendToEndpoint" statistics="enable" trace="enable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="full" separator="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;€€€€€€€€€€€€€€€€€€€€€€€€€€€€">
+        <property expression="$body" name="BodyPostDataMapper"/>
+        <property expression="." name="Current Message  in flow"/>
+        <property expression="$axis2:REST_URL_POSTFIX" name="category"/>
+    </log>
+    <payloadFactory media-type="text">
+        <format>$1</format>
+        <args>
+            <arg evaluator="xml" expression="$body/ns1:text" xmlns:ns1="http://ws.apache.org/commons/ns/payload"/>
+        </args>
+    </payloadFactory>
+    <send>
+        <endpoint name="FileWriter">
+            <address statistics="enable" trace="enable" uri="vfs:sftp://ishantgarg:Summers2020@192.168.1.8">
+                <suspendOnFailure>
+                    <initialDuration>-1</initialDuration>
+                    <progressionFactor>1</progressionFactor>
+                </suspendOnFailure>
+                <markForSuspension>
+                    <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                </markForSuspension>
+            </address>
+            <property name="transport.vfs.ContentType" scope="transport" value="text/xml"/>
+            <property name="OUT_ONLY" value="true"/>
+            <property name="transport.vfs.ReplyFileName" scope="transport" value="testFile.csv"/>
+            <property name="transport.vfs.Locking" scope="transport" value="disable"/>
+        </endpoint>
+    </send>
+</sequence>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="GenerateCSV" statistics="enable" trace="enable" xmlns="http://ws.apache.org/ns/synapse">
+    <payloadFactory media-type="xml">
+        <format>
+            <root mlns="" xmlns="">
+                <item>
+                    <id>31467</id>
+                    <badgeNo>1049</badgeNo>
+                    <givenName>Michael</givenName>
+                    <familyName>Adams</familyName>
+                </item>
+                <item>
+                    <id>31467</id>
+                    <badgeNo>1049</badgeNo>
+                    <givenName>Michael</givenName>
+                    <familyName>Adams</familyName>
+                </item>
+                <item>
+                    <id>31467</id>
+                    <badgeNo>1049</badgeNo>
+                    <givenName>Michael</givenName>
+                    <familyName>Adams</familyName>
+                </item>
+            </root>
+        </format>
+        <args/>
+    </payloadFactory>
+    <log level="full">
+        <property expression="." name="CurrentMessage"/>
+    </log>
+    <datamapper config="gov:datamapper/SequenceNewConfig.dmc" inputSchema="gov:datamapper/SequenceNewConfig_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/SequenceNewConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/SequenceNewConfig_xsltStyleSheet.xml"/>
+</sequence>
